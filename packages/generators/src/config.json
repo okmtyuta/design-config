@@ -1,0 +1,20 @@
+{
+  "components": {
+    "params": {
+      "defaults": [
+        {
+          "schema": "DefaultResetParams",
+          "value": {}
+        }
+      ]
+    }
+  },
+  "variables": {
+    "colors": [
+      {
+        "schema": "UniversalColor",
+        "value": { "name": "blue", "value": "#abcdef" }
+      }
+    ]
+  }
+}

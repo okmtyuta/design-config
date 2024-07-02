@@ -1,0 +1,18 @@
+#app {
+  display: grid;
+  grid-template:
+    'v-header' auto
+    'v-main' 1fr
+    'v-footer' auto;
+  min-height: 100vh;
+}
+.v-header {
+  grid-area: v-header;
+}
+.v-main {
+  grid-area: v-main;
+  width: 100%;
+}
+.v-footer {
+  grid-area: v-footer;
+}

@@ -1,0 +1,14 @@
+import './assets/reset.css'
+import './assets/default.css'
+import './assets/components.css'
+import './assets/main.css'
+
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+
+const app = createApp(App)
+
+app.use(router)
+
+app.mount('#app')
